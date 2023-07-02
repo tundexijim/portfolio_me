@@ -1,0 +1,42 @@
+ [{
+            "id": 1,
+            "name": "Flyo Dark",
+            "image": "/images/flyo-dark.png",
+            "backgroundColor":  "#087830",
+            "thumbnailContent": {
+                "description": "A landing page to demonstrate the use of html and CSS",
+                "toolsUsed": ["FRONTEND", "REACT", "CSS"]
+            },
+            "moreInformation": {
+                "websiteLink": "https://tundexijim.github.io/Flyo-Dark/",
+                "githubLink": "https://github.com/tundexijim/Flyo-Dark"
+            }
+        }, {
+            "id": 2,
+            "name": "E-Commerce",
+            "image": "/images/E-comm.png",
+            "backgroundColor": "#65007A",
+            "thumbnailContent": {
+                "description": "A small ecommerce website that demonstrates the use of cart",
+                "toolsUsed": ["REACT", "CART", "CSS"]
+            },
+            "moreInformation": {
+                "websiteLink": "https://tundexijim.github.io/ecommerce-page/#",
+                "githubLink": "https://github.com/tundexijim/ecommerce-page"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Flyo Dark",
+            "image": "/images/flyo-dark.png",
+            "backgroundColor":  "#087830",
+            "thumbnailContent": {
+                "description": "A landing page to demonstrate the use of html and CSS",
+                "toolsUsed": ["FRONTEND", "REACT", "CSS"]
+            },
+            "moreInformation": {
+                "websiteLink": "https://tundexijim.github.io/Flyo-Dark/",
+                "githubLink": "https://github.com/tundexijim/Flyo-Dark"
+            }
+        }
+    ]
