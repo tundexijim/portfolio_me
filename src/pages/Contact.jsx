@@ -47,9 +47,9 @@ useEffect(() => {
             <div className="text">
                 <p>I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. But I’m also happy to hear about other opportunities that don’t fit that description. If you have an offer, request or a question, do feel free to check out my online profiles below and get in touch using the form below.</p>
                 <div className="socials">
-                <a><AiFillGithub size={25}/></a>
-                <a><AiFillLinkedin size={25}/></a>
-                 <a><BsTwitter size={25}/></a>
+                <a href='https://github.com/tundexijim' target="_blank"><AiFillGithub size={25}/></a>
+                <a href='https://www.linkedin.com/in/ijimakinde-tunde-41095179' target="_blank"><AiFillLinkedin size={25}/></a>
+                 <a href='https://twitter.com/tundeph' target="_blank"><BsTwitter size={25}/></a>
                  </div>
             </div>
         </div>

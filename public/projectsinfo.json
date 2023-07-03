@@ -15,9 +15,9 @@
             "id": 2,
             "name": "E-Commerce",
             "image": "/images/E-comm.png",
-            "backgroundColor": "#65007A",
+            "backgroundColor": "#FF7E1B",
             "thumbnailContent": {
-                "description": "A small ecommerce website that demonstrates the use of cart",
+                "description": "A small ecommerce website that demonstrates the use of cart.",
                 "toolsUsed": ["REACT", "CART", "CSS"]
             },
             "moreInformation": {
@@ -27,16 +27,16 @@
         },
         {
             "id": 3,
-            "name": "Flyo Dark",
-            "image": "/images/flyo-dark.png",
-            "backgroundColor":  "#087830",
+            "name": "Entertainment",
+            "image": "/images/entertainment.png",
+            "backgroundColor":  "#FC4747",
             "thumbnailContent": {
-                "description": "A landing page to demonstrate the use of html and CSS",
-                "toolsUsed": ["FRONTEND", "REACT", "CSS"]
+                "description": "An entertainment app with cool features built with react.",
+                "toolsUsed": ["FRONTEND", "REACT", "CSS", "REACT-SLICK"]
             },
             "moreInformation": {
-                "websiteLink": "https://tundexijim.github.io/Flyo-Dark/",
-                "githubLink": "https://github.com/tundexijim/Flyo-Dark"
+                "websiteLink": "https://tundexijim.github.io/entertainment-web-app/",
+                "githubLink": "https://github.com/tundexijim/entertainment-web-app"
             }
         }
     ]

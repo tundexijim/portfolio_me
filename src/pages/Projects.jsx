@@ -3,18 +3,17 @@ import axios from "axios";
 import ProjectSelect from '../components/ProjectSelect';
 import ProjectTemplate from '../components/ProjectTemplate';
 import TextContact from '../components/TextContact';
-import data from '../projectsinfo.json';
-import { NavLink } from "react-router-dom";
+// import data from '../projectsinfo.json';
 function Projects() {
-const [projects, setProjects] = useState(data);
+const [projects, setProjects] = useState([]);
 const [showModal, setShowModal] = useState(false);
 const [clickedProject, setClickedProject] = useState([]);
 
-// useEffect(() => {
-//     axios.get("./projectinfo.json")
-//       .then((res) => {setmydata(res.data)})
-//       .catch((err) => console.log(err));
-//   }, []);
+useEffect(() => {
+    axios.get("./projectsinfo.json")
+      .then((res) => {setProjects(res.data)})
+      .catch((err) => console.log(err));
+  }, []);
 function handleProjectSelection(singleproject) {
     setClickedProject(singleproject);
   }
@@ -22,8 +21,7 @@ function handleProjectSelection(singleproject) {
 const resetModal = () => {
     setShowModal(false);
     setClickedProject('')
-    document.getElementsByTagName('body')[0].classList.remove('overflow-hidden');
-    document.getElementsByTagName('body')[0].classList.add('overflow-auto');
+    document.body.style.overflow = '';
 }
 
 //closing modal on escape key
