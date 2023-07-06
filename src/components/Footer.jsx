@@ -14,9 +14,9 @@ function Footer() {
         </div>
         </div>
         <div className="socials">
-           <a href='https://github.com/tundexijim' target="_blank"><AiFillGithub size={25}/></a>
-           <a href='https://www.linkedin.com/in/ijimakinde-tunde-41095179' target="_blank"><AiFillLinkedin size={25}/></a>
-           <a href='https://twitter.com/tundeph' target="_blank"><BsTwitter size={25}/></a>
+           <a href='https://github.com/tundexijim' target="_blank" rel="noreferrer"><AiFillGithub size={25}/></a>
+           <a href='https://www.linkedin.com/in/ijimakinde-tunde-41095179' target="_blank" rel="noreferrer"><AiFillLinkedin size={25}/></a>
+           <a href='https://twitter.com/tundeph' target="_blank" rel="noreferrer"><BsTwitter size={25}/></a>
         </div>
     </div>
   )
