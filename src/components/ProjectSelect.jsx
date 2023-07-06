@@ -24,8 +24,8 @@ function ProjectSelect({ clickedProject, resetModal, showModal, modalRef, closeM
                         </div>
                     </div>
                     <div className="button">
-                        {clickedProject.moreInformation && clickedProject.moreInformation.githubLink && <a href={clickedProject.moreInformation.githubLink} target="_blank"><button className='btn'>Github Link</button></a>}
-                        {clickedProject.moreInformation && clickedProject.moreInformation.websiteLink && <a href={clickedProject.moreInformation.websiteLink} target="_blank"><button className='btn'>Visit Website</button></a>}
+                        {clickedProject.moreInformation && clickedProject.moreInformation.githubLink && <a href={clickedProject.moreInformation.githubLink} target="_blank" rel="noreferrer"><button className='btn'>Github Link</button></a>}
+                        {clickedProject.moreInformation && clickedProject.moreInformation.websiteLink && <a href={clickedProject.moreInformation.websiteLink} target="_blank" rel="noreferrer"><button className='btn'>Visit Website</button></a>}
                     </div>
                     <span onClick={handleClick} aria-label="Close Modal" className="closemodal">
                         <MdClose size={30} />
