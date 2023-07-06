@@ -1,24 +1,11 @@
 
-import React,  { useState, useEffect, useCallback } from 'react'
+import React from 'react'
 import { MdClose } from 'react-icons/md';
-import axios from 'axios';
 function ProjectSelect({ clickedProject, resetModal, showModal, modalRef, closeModal, project }) {
-    
-    // const getProjectData = useCallback(async () => {
-    //     const project = await axios.get('/projectsinfo.json').then(res => {
-    //         const data = res.data.projects.filter(item => item.name === projectName)
-    //         return data
-    //     })
-    //     setProject(project)
-    // }, [projectName])
-
     const handleClick = () => {
         resetModal()
         document.body.style.overflow = '';
     }
-    // useEffect(() => {
-    //     getProjectData()
-    // }, [getProjectData, showModal])
   return (
     <div ref={modalRef} onClick={closeModal} className="project-container">
             <div className="modal">

@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {useLayoutEffect} from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import {BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 const App = () => {
-
+  const {pathname} = useLocation();
+  useLayoutEffect(() => {
+    window.scrollTo({
+        top: 0,
+        bottom: -window.innerHeight,
+        behavior: 'smooth'
+    })
+}, [pathname]);
   return (
-    <BrowserRouter>
     <div>
       <Navbar />
       <Routes>
@@ -18,7 +24,6 @@ const App = () => {
       </Routes>
       <Footer />
     </div>
-    </BrowserRouter>
   )
 }
 

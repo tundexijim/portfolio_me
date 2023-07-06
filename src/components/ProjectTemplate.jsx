@@ -4,7 +4,6 @@ function ProjectTemplate({ project, setShowModal, handleProjectSelection }) {
     const handleClick = () => {
         handleProjectSelection(project)
         setShowModal(true);
-        // document.getElementsByTagName('body')[0].classList.add('overflow-hidden');
         document.body.style.overflow = "hidden";
     }
   return (
