@@ -38,5 +38,19 @@
                 "websiteLink": "https://tundexijim.github.io/entertainment-web-app/",
                 "githubLink": "https://github.com/tundexijim/entertainment-web-app"
             }
+        },
+        {
+            "id": 4,
+            "name": "Invoice",
+            "image": "/images/invoice.png",
+            "backgroundColor":  "#7C5DFA",
+            "thumbnailContent": {
+                "description": "An invoice app built with react and graphql",
+                "toolsUsed": ["FRONTEND", "REACT", "CSS", "EXPRESS","GRAPHQL", "APOLLO SERVER", "APOLLO CLIENT", "FORMIK"]
+            },
+            "moreInformation": {
+                "websiteLink": "https://invoice-app-liard-kappa.vercel.app/",
+                "githubLink": "https://github.com/tundexijim/Invoice-app"
+            }
         }
     ]
