@@ -7,7 +7,8 @@ import {DiReact, DiCss3, DiJavascript1, DiNodejsSmall} from 'react-icons/di'
 import { BsGit } from 'react-icons/bs'
 import { GrGraphQl } from 'react-icons/gr'
 import { FaBootstrap } from 'react-icons/fa'
-import { SiMysql, SiPhp, SiExpress, SiApollographql } from 'react-icons/si'
+import { SiMysql, SiPhp, SiExpress, SiApollographql, SiTailwindcss } from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
 function Home() {
   return (
     <div className='home'>
@@ -43,6 +44,8 @@ function Home() {
             <div className="tool">< SiPhp size={80} /><span>PHP</span></div>
             <div className="tool">< SiExpress size={80} /><span>EXPRESSJS</span></div>
             <div className="tool">< SiApollographql size={80} /><span>APOLLOGRAPHQL</span></div>
+            <div className="tool">< TbBrandNextjs size={80} /><span>NEXTJS</span></div>
+            <div className="tool">< SiTailwindcss size={80} /><span>TAILWINDCSS</span></div>
           </div>
         <hr/>
         </div>
