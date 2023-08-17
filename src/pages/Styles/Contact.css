@@ -1,0 +1,87 @@
+.contact{
+    margin: 94px 165px 109px;
+}
+.contact hr{
+    height: 1px;
+    background-color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+.contact .upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0;
+}
+.contact .upper p{
+    line-height: 30px;
+    width: 635px;
+    margin-bottom: 24px;
+}
+.contact .socials{
+    display: flex;
+    gap: 15px;
+}
+.contact .socials a{
+    color:#33323D;
+}
+.contact .below{
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .below label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.contact .custom-input{
+    height: 48px;
+    position: relative;
+    background: rgba(51, 50, 61, 0.1);
+    border: 1px solid #33323D;
+    padding-left: 10px;
+    width: 635px;
+   
+}
+.contact .custom-input.msg{
+    height: 96px;
+    resize: none;
+    padding-top: 10px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.contact .custom-input::placeholder{
+    color: rgba(51, 50, 61, 0.4);
+    font-family: 'Poppins';
+}
+.contact button{
+    background-color: #203A4C;
+    color: #ffffff;
+    padding: 17px 24px;
+   
+}
+
+@media all and (max-width:650px){
+    .contact{
+        margin: 40px 32px 80px;
+    }   
+    .contact .upper{
+        flex-direction: column;
+        gap: 24px;
+        margin: 24px 0;
+    }
+    .contact .upper p{
+        width: 400px;
+    }
+    .contact .below{
+        margin-top: 32px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .contact .custom-input{
+        width: 100%;
+    }
+}

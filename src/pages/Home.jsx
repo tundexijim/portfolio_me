@@ -9,6 +9,7 @@ import { GrGraphQl } from 'react-icons/gr'
 import { FaBootstrap } from 'react-icons/fa'
 import { SiMysql, SiPhp, SiExpress, SiApollographql, SiTailwindcss } from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
+import './Styles/Home.css'
 function Home() {
   return (
     <div className='home'>

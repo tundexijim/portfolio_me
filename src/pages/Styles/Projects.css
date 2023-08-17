@@ -1,0 +1,181 @@
+.ProjectsIndex{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 37px;
+
+}
+.ProjectsIndex h2{
+    font-size: 50px;
+    text-align: center;
+}
+.ProjectsIndex .Projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 0 165px 50px;
+}
+.ProjectTemplate {
+    height: 314px;
+    max-width: 339px;
+    min-width: 320px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.ProjectTemplate:hover{
+    box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+    transform: scale(1.25);
+}
+.ProjectTemplate::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #f00, #000);
+    mix-blend-mode: screen;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.ProjectTemplate:hover::before{
+    opacity: 1;
+}
+.ProjectTemplate img{
+    height: 280px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    -webkit-filter: drop-shadow(20px 20px 0px rgba(0, 0, 0, 0.147563));
+    filter: drop-shadow(20px 20px 0px rgba(0, 0, 0, 0.147563));
+}
+.ProjectTemplate .textContent{
+    position: absolute;
+    text-align: left;
+    bottom: -150px;
+    left: 20px;
+    color: #ffffff;
+    transition: 0.5s all;
+    /* z-index: 10; */
+
+}
+
+.ProjectTemplate:hover .textContent{
+    bottom: 20px;
+}
+.ProjectTemplate:hover img{
+    opacity: 0.2;
+}
+
+.ProjectTemplate .textContent h3{
+font-size: 30px;
+}
+.ProjectTemplate .textContent p{
+    width: 250px;
+}
+.ProjectTemplate button{
+    padding: 10px;
+    background-color: #33323D;
+    color: #ffffff;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
+.ProjectTemplate button:hover{
+    background-color: #ffffff;
+    color: #33323D;
+}
+.project-container{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; 
+  z-index: 1;
+}
+.project-container .modal{
+    height: 83.33%;
+    width: 75%;
+    display: flex;
+    position: relative;
+    
+}
+.project-container .image{
+    width: 50%;
+    padding: 30px 30px 0;
+}
+.project-container figure{
+    height: 100%;
+}
+.project-container img{
+    width: 100%;
+    height: 100%;
+}
+.project-container .content{
+    background-color: #ffffff;
+    padding: 40px 30px 0;
+    width: 50%;
+}
+.project-container .content h2{
+    text-align: left;
+    font-size: 30px;
+}
+.project-container .tools{
+    margin-top: 20px;
+}
+.project-container .toolwrap{
+    display:flex;
+    gap: 10px;
+}
+.project-container .toolwrap .tool{
+    background-color: #33323D;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+.project-container .button{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.project-container .closemodal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+@media all and (max-width:650px){
+    .ProjectsIndex .Projects{
+        justify-content: center;
+        margin: 0 32px 50px;
+    }
+    .project-container .modal{
+        flex-direction: column;
+        width: 100%;
+        height: 100%; 
+    }
+    .project-container .image{
+        width: 100%;
+        height: 50%;
+    }
+    .project-container .content{
+        background-color: #ffffff;
+        padding: 20px 30px 0;
+        width: 100%;
+        height: 50%;
+    }
+    .project-container .button{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .project-container .button .btn{
+        width: 100%;
+    }
+}

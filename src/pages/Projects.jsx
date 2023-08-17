@@ -3,6 +3,7 @@ import axios from "axios";
 import ProjectSelect from '../components/ProjectSelect';
 import ProjectTemplate from '../components/ProjectTemplate';
 import TextContact from '../components/TextContact';
+import './Styles/Projects.css'
 // import data from '../projectsinfo.json';
 function Projects() {
 const [projects, setProjects] = useState([]);

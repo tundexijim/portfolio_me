@@ -5,6 +5,7 @@ import { BsTwitter } from 'react-icons/bs'
 import { Formik, Form} from 'formik';
 import emailjs from 'emailjs-com';
 import * as Yup from 'yup';
+import './Styles/Contact.css'
 function Contact() {
   const [isSubmit, setSubmit] = useState(null)
   const initialValues = {
