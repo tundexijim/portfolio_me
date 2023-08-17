@@ -31,6 +31,7 @@ button{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 64px 165px 0;
     font-size: 12px;
     font-weight: 700;
@@ -91,6 +92,8 @@ button{
     }
     .navbar .menu{
         display: block;
+        
+
     }
     .link, .link-active{
         color: #fff;

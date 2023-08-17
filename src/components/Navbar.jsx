@@ -11,7 +11,7 @@ function Navbar() {
     <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")}  to='/projects' onClick={()=> setshowNav(!showNav)}>PROJECTS</NavLink>
     <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")}  to='/contact' onClick={()=> setshowNav(!showNav)}>CONTACT ME</NavLink>
     </div>
-    <div className='menu' onClick={()=> setshowNav(!showNav)}>{!showNav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20} />}</div>
+    <div className='menu' onClick={()=> setshowNav(!showNav)}>{!showNav ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30} />}</div>
     </div>
   )
 }
