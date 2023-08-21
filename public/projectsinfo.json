@@ -52,5 +52,19 @@
                 "websiteLink": "https://invoice-app-liard-kappa.vercel.app/",
                 "githubLink": "https://github.com/tundexijim/Invoice-app"
             }
+        },
+        {
+            "id": 5,
+            "name": "Audiophile",
+            "image": "/images/Audiophile.png",
+            "backgroundColor":  "#D87D4A",
+            "thumbnailContent": {
+                "description": "A website for audio lovers. It features different audio devices.",
+                "toolsUsed": ["FRONTEND", "REACT", "NEXTJS", "TAILWINDCSS", "FORMIK"]
+            },
+            "moreInformation": {
+                "websiteLink": "https://newaudio.netlify.app/",
+                "githubLink": "https://github.com/tundexijim/Audiophile"
+            }
         }
     ]
